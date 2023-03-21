@@ -4,7 +4,7 @@
 
 Linguagens usadas para a criação da página:
 
-'''
+```
 CSS
 HTML
-'''
+```
