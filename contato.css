@@ -1,0 +1,109 @@
+header{
+    background-color: black;
+    padding: 20px;
+}
+    .caixa{
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    h1{
+        width: 100%;
+    }
+
+    nav {
+        position: absolute;
+        top: 110px;
+        right: 0;
+    }
+
+        nav li{
+            display: inline;
+            margin: 0 0 0 15px;
+        }
+
+        nav a{
+            text-transform: uppercase;
+            color: white;
+            font-style: bold;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+
+        nav a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+
+
+main{
+    width: 940px;
+    margin: 40px auto;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+    
+}
+
+.inputpp{
+    display: block;
+    margin: 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.check{
+    padding: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: gray;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+
+
+}
+
+.enviar:hover{
+    background: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+        
+
+.tabela{
+    margin: 20px 0 40px;
+    border: black solid 1px;
+}
+
+thead{
+    background: black;
+    font-weight: bold;
+    color: white;
+}
+
+.ta{
+    padding: 8px 15px;
+}
+
+footer{
+    background: url(imagens/bg.jpg);
+    text-align: center;
+}
+.copy{
+    color: white;
+    font-size: 15px;
+    padding: 15px 0;
+}

@@ -1,0 +1,210 @@
+@font-face {
+    font-family: zing;
+    src: url("/Afins/ZingRustDemo-Base.otf");
+}
+
+
+
+header {
+    background-color:black;
+    padding: 20px;
+    
+}
+
+    .caixa{
+        position: relative;
+        width: 940px;
+        margin: 0 auto ;
+    }
+
+
+h1{
+    width: 100%;
+}
+
+
+    nav{
+        position: absolute;
+        top: 110px;
+        right: 0;
+    }
+            
+
+
+            nav li {
+                display: inline;
+                margin: 0 0 0 15px;
+
+            }
+
+            nav a {
+                text-transform: uppercase;
+                color: white;
+                font-style: bold;
+                font-size: 20px;
+                text-decoration: none;
+            }
+            nav a:hover{
+                color: yellow;
+                text-decoration: underline;
+            }
+   
+            
+/* body */
+.banner{
+    size-adjust: 50%;
+}
+
+
+div {
+    background-color: black;
+}
+
+.fundo {
+    background: linear-gradient(45deg,rgb(223, 236, 248),white)
+}
+
+
+.titulo {
+    position: absolute;
+    right: 840px;
+    width: 300px;
+    top: 290px;
+    font-size: 50px;
+    font-style: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: "zing";
+    color: white;
+}
+
+.sobre{
+    position: absolute;
+    right: 650px;
+    width: 450px;
+    top: 400px;
+    font-size: 30px;
+    color: white;
+}
+
+
+    .missao {
+        font-family: "zing";
+        position: absolute;
+        top: 570px;
+        right: 840px;
+        font-size: 50px;
+        color: white;
+    }
+
+
+    .missaop{
+        position: absolute;
+        top: 630px;
+        right: 650px;
+        width: 490px;
+        font-size: 30px;
+        color: white;        
+
+    }
+
+
+
+.conheca{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 100px;
+}
+
+
+
+
+.cabeleleiros{
+    display: inline;
+    width: 400px;
+    margin: 0 50px;
+    position: center;
+}
+
+.cabeleleiros li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 50px 20px;
+    vertical-align: top;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: center;
+
+}
+
+
+
+    .cabeleleiros h2{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px;
+
+    }
+
+    .sobrec {
+        font-size: 30px;
+        margin: 50px;
+
+
+    }
+
+
+    .cabeleleiros li:hover{
+        font-size: 50px;
+    }
+
+
+
+.final {
+    text-align: center;
+    padding: 70px 500px;
+    font-size: 35px;
+    font-family: "zing";
+}
+
+
+.mapa{
+    text-align: center;
+    font-family: "zing";
+}
+
+.mapa h3{
+    font-size: 90px;
+    padding: 50px;
+}
+
+.mapa p{
+    font-size: 40px;
+}
+
+
+.cux{
+    padding: 30px;
+
+}
+
+/* baixo */
+footer{
+    text-align: center;
+    background: url("imagens/bg.jpg");
+}
+
+.cop{
+    color: white;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        align-items: center;
+    }
+    }
+    
