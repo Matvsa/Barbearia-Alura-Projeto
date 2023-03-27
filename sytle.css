@@ -67,7 +67,7 @@ div {
 
 .titulo {
     position: absolute;
-    right: 840px;
+    right: 340px;
     width: 300px;
     top: 290px;
     font-size: 50px;
@@ -80,7 +80,7 @@ div {
 
 .sobre{
     position: absolute;
-    right: 650px;
+    right: 150px;
     width: 450px;
     top: 400px;
     font-size: 30px;
@@ -92,7 +92,7 @@ div {
         font-family: "zing";
         position: absolute;
         top: 570px;
-        right: 840px;
+        right: 340px;
         font-size: 50px;
         color: white;
     }
@@ -101,7 +101,7 @@ div {
     .missaop{
         position: absolute;
         top: 630px;
-        right: 650px;
+        right: 150px;
         width: 490px;
         font-size: 30px;
         color: white;        
